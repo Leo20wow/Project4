@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/bb867f31e9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Проект №4 ВК</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <img
+            src="https://cs6.pikabu.ru/post_img/2015/04/04/10/1428167390_1660463019.jpg"
+            alt="vk logo"
+          />
+        </div>
+        <div class="search">
+          <div class="search_field">
+            <label for="search"
+              ><a href="#"><i class="fas fa-search"></i></a
+            ></label>
+            <input
+              type="text"
+              id="search"
+              name="search_field"
+              placeholder="Розыск"
+            />
+          </div>
+        </div>
+        <div class="user_nav">
+          <div class="user_name">Леонид З.</div>
+          <div class="user_nav_image">
+            <img
+              src="https://cdn.fishki.net/upload/post/2018/06/08/2620493/eamdrqk.jpg"
+              alt="user avatar"
+            />
+          </div>
+          <div class="user_nav_more">
+            <i class="fa-solid fa-chevron-down" style="color: #a6a6a6"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <aside class="vertical_nav">
+        <div class="vertical_nav_block">
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-user"></i>
+            <h4>Моё досье</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-newspaper"></i>
+            <h4>Информбюро</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-message"></i>
+            <h4>Телеграммы</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-address-book"></i>
+            <h4>
+              <a
+                href="#"
+                style="text-decoration: none; color: black; font-weight: normal"
+                >Товарищи</a
+              >
+            </h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-brands fa-nfc-symbol"></i>
+            <h4>Объединения</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-image"></i>
+            <h4>Фотокарточки</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-file-audio"></i>
+            <h4>Магнитофон</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-file-video"></i>
+            <h4>Киноленты</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-solid fa-film"></i>
+            <h4>Короткометражки</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-chess-knight"></i>
+            <h4>Досуг и отдых</h4>
+          </div>
+        </div>
+
+        <div class="vertical_nav_block">
+          <div class="vertical_nav_block_item">
+            <i class="fa-brands fa-medapps"></i>
+            <h4>Мини-приложения</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-money-bill-1"></i>
+            <h4>VK Pay</h4>
+          </div>
+        </div>
+
+        <div class="vertical_nav_block">
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-credit-card"></i>
+            <h4>Маркет</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-star"></i>
+            <h4>Ориентировочный знак</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-regular fa-file"></i>
+            <h4>Документы</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-solid fa-sliders"></i>
+            <h4>Управление</h4>
+          </div>
+        </div>
+
+        <div class="vertical_nav_block">
+          <div class="vertical_nav_block_item">
+            <i class="fa-brands fa-nfc-symbol"></i>
+            <h4>Rust</h4>
+          </div>
+          <div class="vertical_nav_block_item">
+            <i class="fa-brands fa-nfc-symbol"></i>
+            <h4>Garry`s mod 13</h4>
+          </div>
+        </div>
+      </aside>
+      <div class="profile_data">
+        <div class="profile_general">
+          <div class="profile_photo">
+            <img
+              src="https://cdn.fishki.net/upload/post/2018/06/08/2620493/eamdrqk.jpg"
+              width="100px"
+              alt=""
+            />
+          </div>
+          <div class="profile_photo_edit_image">
+            <button id="edit_image">Подкрутки</button>
+          </div>
+          <div class="profile_optional">
+            <div class="_profile_optional_item">
+              <i class="fa-solid fa-arrow-up-right-dots"></i>
+              <h4>Статистика досье</h4>
+            </div>
+            <div class="_profile_optional_item">
+              <i class="fa-solid fa-hourglass-empty"></i>
+              <h4>Воспомнить всё</h4>
+            </div>
+            <div class="_profile_optional_item">
+              <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              <h4>Денежные послания</h4>
+            </div>
+          </div>
+        </div>
+        <div class="add">
+          <div class="add_item">
+            <i class="fa-solid fa-address-book"></i>
+            <h4>Записная книжка</h4>
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="friends">
+          <div class="friends_general">
+            <div class="caption">
+              <h4>Товарищи<span class="number_of_friends"> 1991</span></h4>
+              <h4 class="updates">Сводки</h4>
+            </div>
+            <div class="friends_items">
+              <div class="friends_item">
+                <img
+                  src="https://i.imgur.com/oB9pif4.png"
+                  alt=""
+                  class="friend_item_img"
+                /><a href="" class="friends_item_link">Илья Б.</a>
+              </div>
+              <div class="friends_item">
+                <img
+                  src="https://www.meme-arsenal.com/memes/c23d665f4834bfdc0bc284ed8b19b4a8.jpg"
+                  alt=""
+                  class="friend_item_img"
+                /><a href="" class="friends_item_link">Андрей Ч.</a>
+              </div>
+              <div class="friends_item">
+                <img
+                  src="https://sun9-73.userapi.com/s/v1/if2/tGbaGxM_KC7_VC0tpVAnIJZY9I7AJ11YE-xutylwo8jfSosOtnxYWHNZEEl_UhZkF23_e2SJQY9BRl6JbK4CK-vn.jpg?size=719x890&quality=96&type=album"
+                  alt=""
+                  class="friend_item_img"
+                /><a href="" class="friends_item_link">Владислав О.</a>
+              </div>
+              <div class="friends_item">
+                <img
+                  src="https://all-t-shirts.ru/goods_images/ru123998II0001275327cc4c3b5be26d14ac6c1370dd2.jpg"
+                  alt=""
+                  class="friend_item_img"
+                /><a href="" class="friends_item_link">Александр Н.</a>
+              </div>
+              <div class="friends_item">
+                <img
+                  src="https://sun9-43.userapi.com/s/v1/if1/fwkn0zr-nr-feIhC9FHF-GzqE13ROfE_Fia-P3sicHLvNRYnUCM92a9X1hts1CjaEUasL9xN.jpg?size=512x512&quality=96&type=album"
+                  alt=""
+                  class="friend_item_img"
+                /><a href="" class="friends_item_link">Иван И.</a>
+              </div>
+              <div class="friends_item">
+                <img
+                  src="https://vk.com/images/soviet_200.png"
+                  alt=""
+                  class="friend_item_img"
+                /><a href="" class="friends_item_link">Юрий Б.</a>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="friends_general">
+            <div class="caption">
+              <h4>
+                Товарищи на связи<span class="number_of_friends"> 69</span>
+              </h4>
+            </div>
+            <div class="friends_items">
+              <div class="friends_item">
+                <img
+                  src="https://sun9-78.userapi.com/s/v1/if2/-WsOol7f5p8fAia5BAbqrFQoMrt7wwpmxwwoHY0xtjQv7PFaZ5OvnBHMWMf5Wo7TcIhq3eV48_Ky-fGJfelOLBDC.jpg?size=1590x2160&quality=96&type=album"
+                  alt=""
+                  class="friend_item_img"
+                /><a href="myLove" class="friends_item_link">Полианна В.</a>
+              </div>
+              <div class="friends_item">
+                <img
+                  src="https://sun9-81.userapi.com/s/v1/ig1/Q850MkT_X5Vc0NGxgpOVlfOwDH5XAvBUl7XdHxYLgp9h9NurclMGIn3TMPsWXS64sD8T4ef8.jpg?size=750x900&quality=96&type=album"
+                  alt=""
+                  class="friend_item_img"
+                /><a href="yeah" class="friends_item_link">Екатерина Б.</a>
+              </div>
+              <div class="friends_item">
+                <img
+                  src="http://img2.reactor.cc/pics/post/Anime-Art-Anime-Nekobaka-Megane-4652454.jpeg"
+                  alt="yes"
+                  class="friend_item_img"
+                /><a href="" class="friends_item_link">Наталия В.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="general">
+          <div class="general_header">
+            <h2>Леонид Зомбосс`ович</h2>
+            <i class="fa-solid fa-code-branch"></i>
+            <span class="status">На связи</span>
+            <p class="bio">https://www.youtube.com/watch?v=dQw4w9WgXcQ</p>
+            <hr style="width: 100%" />
+          </div>
+          <div class="general_info">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Дата Появления:</td>
+                  <td>15 Апреля 2002г.</td>
+                </tr>
+                <tr>
+                  <td>Город:</td>
+                  <td>Ангарск</td>
+                </tr>
+                <tr>
+                  <td>Семейное положение:</td>
+                  <td>Не женат</td>
+                </tr>
+                <tr>
+                  <td>Место службы:</td>
+                  <td>https://corust.ru/products?</td>
+                </tr>
+                <tr>
+                  <td>Языки</td>
+                  <td>Русский, Английский</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td class="more">Просмотреть подробное досье</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr />
+          <div class="stats">
+            <div class="stats_item">
+              <h3>1991</h3>
+              <span>Товарища</span>
+            </div>
+            <div class="stats_item">
+              <h3>300</h3>
+              <span>Читателей</span>
+            </div>
+            <div class="stats_item">
+              <h3>91</h3>
+              <span>фотокарточек</span>
+            </div>
+            <div class="stats_item">
+              <h3>420</h3>
+              <span>Кинолент</span>
+            </div>
+            <div class="stats_item">
+              <h3>69</h3>
+              <span>Гостинцев</span>
+            </div>
+          </div>
+        </div>
+        <div class="album">
+          <div class="album_general">
+            <div class="caption">
+              <h4>Мои фотокарточки<span class="number_of_photos"> 97</span></h4>
+              <h4 class="updates">показать на карте</h4>
+            </div>
+            <div class="album_items">
+              <div class="album_item">
+                <img
+                  src="https://avatars.mds.yandex.net/get-mpic/5319329/img_id4346860520729542156.png/14hq"
+                  alt="lol"
+                />
+              </div>
+              <div class="album_item">
+                <img src="https://i.redd.it/87r7hposztx01.jpg" alt="rrr" />
+              </div>
+              <div class="album_item">
+                <img
+                  src="https://sun9-35.userapi.com/DUR2UKwGGDJi5O47ghnqWsz3ouhg8IOJpSJgVA/KNA10_oF5uQ.jpg"
+                  alt="ere"
+                />
+              </div>
+              <div class="album_item">
+                <img src="https://i.imgflip.com/14v7x9.jpg" alt="kek" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="add_post">
+          <div class="add_post_wrapper">
+            <div class="image_block">
+              <img
+                src="https://cdn.fishki.net/upload/post/2018/06/08/2620493/eamdrqk.jpg"
+                alt=""
+              />
+            </div>
+            <div class="input_field">
+              <label for="kek"></label>
+              <input
+                type="text"
+                placeholder="Что у вас нового,Товарищ?"
+                id="kek"
+              />
+            </div>
+            <div class="add_post_media">
+              <i class="fa-solid fa-camera"></i>
+              <i class="fa-solid fa-video"></i>
+              <i class="fa-solid fa-music"></i>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="add_post_options">
+              <i class="fa-solid fa-lightbulb"></i>
+              <i class="fa-solid fa-lock"></i>
+            </div>
+          </div>
+        </div>
+        <div class="content_bottom">
+          <div class="content_wrapper">
+            <div class="content_nav">
+              <div class="content_nav_items">
+                <div class="all_posts">Все темы</div>
+                <div class="my_posts">Мои темы</div>
+                <div class="archive">Гос. Архив</div>
+              </div>
+              <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="main_content"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
